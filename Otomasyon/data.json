@@ -1,0 +1,13 @@
+{
+	"logoXpath":"/html/body/header/div/div/div/div[1]/div/a/img",
+	"productButtonXpath" : "/html/body/header/div/div/div/div[2]/div/ul/li[2]/a",
+	"addcartButtonClassName" : "/html/body/section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a",
+	"mainUrl" : "https://automationexercise.com/",
+	"addedModalXpath" : "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div",
+	"viewCartButtonXpath" : "/html/body/header/div/div/div/div[2]/div/ul/li[3]/a",
+	"productTableXpath" : "/html/body/section/div/div[2]",
+	"productPriceXpath" : "/html/body/section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/h2",
+	"overlayClassName" : "overlay-content",
+	"sleepForWait" : 5,
+	"productNumber" : 2	
+}
