@@ -4,5 +4,6 @@ required python packages : selenium, pytest, pytest-html (pip install -r require
 ------------------------------------------------------------
 !!!!!Please edit data.json for e-mail and password info!!!!!
 ------------------------------------------------------------
-run command : pytest takipListesiTest.py --html=report.html 
-test result report file : ./report.html
+run command : 
+-pytest seleniumAutomation.py --html=report.html 
+test result report file will be : ./Automation/report.html

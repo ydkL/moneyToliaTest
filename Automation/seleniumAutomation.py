@@ -144,7 +144,8 @@ def test_addingProduct():
 
         print(f"Verify That Product with name: {product["name"]} is displayed with price: {product["price"]}, quantity : {getProductNumber(product["name"], productsFeatures)}, total : Rs. {getProductTotal(product["name"], productsFeatures)} in cart: PASSED")
 
-def getProductTypeNumber(productFeatureList):   
+def getProductTypeNumber(productFeatureList): 
+    '''return number of different product in input List'''  
     productList = []   
     for product in productFeatureList:
         if (product["name"] not in productList):
@@ -152,6 +153,7 @@ def getProductTypeNumber(productFeatureList):
     return len(productList)
 
 def getProductNumber(productName, productFeatureList):
+    '''return number of product(which named as productName) in input List'''
     count = 0
     for product in productFeatureList:
         if product["name"] == productName:
@@ -159,6 +161,7 @@ def getProductNumber(productName, productFeatureList):
     return count
 
 def getProductTotal(productName, productFeatureList):
+    '''return total price of product(which named as productName) in input List'''
     total = 0
     for product in productFeatureList:
         if product["name"] == productName:
